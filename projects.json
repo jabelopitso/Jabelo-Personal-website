@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Project 1",
+        "image": "images/image1.jpg",
+        "category": "Web Development",
+        "description": "A cool web app built using HTML, CSS, and JavaScript."
+    },
+    {
+        "title": "Project 2",
+        "image": "images/image2.jpg",
+        "category": "Design",
+        "description": "A creative UI/UX design project."
+    },
+    {
+        "title": "Project 3",
+        "image": "images/image3.jpg",
+        "category": "Web Development",
+        "description": "A responsive portfolio website project."
+    },
+    {
+        "title": "Project 4",
+        "image": "images/image4.jpg",
+        "category": "AI",
+        "description": "A small AI project using Python."
+    }
+]
