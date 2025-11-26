@@ -1,74 +1,26 @@
 [
     {
-        "title": "E-Commerce Platform",
-        "image": "https://via.placeholder.com/300x200/3498db/ffffff?text=E-Commerce+Platform",
-        "category": "Web Development",
-        "description": "A full-stack e-commerce solution built with React, Node.js, and MongoDB. Features include user authentication, payment processing, inventory management, and real-time order tracking."
-    },
-    {
-        "title": "Brand Identity Design",
-        "image": "https://via.placeholder.com/300x300/e74c3c/ffffff?text=Brand+Identity",
-        "category": "Design",
-        "description": "Complete brand identity package for a tech startup including logo design, color palette, typography, business cards, and brand guidelines. Modern and minimalist approach."
-    },
-    {
-        "title": "AI Chatbot Assistant",
-        "image": "https://via.placeholder.com/300x250/9b59b6/ffffff?text=AI+Chatbot",
+        "title": "Voice Bank Africa",
+        "image": "https://via.placeholder.com/300x200/3498db/ffffff?text=Voice+Bank+Africa",
         "category": "AI",
-        "description": "Intelligent chatbot using natural language processing and machine learning. Built with Python, TensorFlow, and integrated with multiple messaging platforms."
+        "description": "A comprehensive voice banking platform for African languages, enabling voice data collection, processing, and synthesis. Built to preserve and digitize African linguistic heritage through modern AI technology.",
+        "github": "https://github.com/jabelopitso/Voice-bank-Africa",
+        "technologies": ["Python", "AI/ML", "Voice Processing", "Django"]
     },
     {
-        "title": "Portfolio Website",
-        "image": "https://via.placeholder.com/300x350/2ecc71/ffffff?text=Portfolio+Site",
+        "title": "Smart Queue Triage System",
+        "image": "https://via.placeholder.com/300x250/e74c3c/ffffff?text=Smart+Queue+System",
         "category": "Web Development",
-        "description": "Responsive portfolio website with modern animations, smooth scrolling, and dynamic content loading. Built with vanilla JavaScript and CSS Grid."
+        "description": "An intelligent queue management system that optimizes patient flow in healthcare facilities. Features real-time triage, priority scheduling, and analytics dashboard for improved healthcare delivery.",
+        "github": "https://github.com/jabelopitso/Smart-Queue-Triage-System",
+        "technologies": ["React", "Node.js", "MongoDB", "Real-time Analytics"]
     },
     {
-        "title": "Mobile App UI Design",
-        "image": "https://via.placeholder.com/300x280/f39c12/ffffff?text=Mobile+App+UI",
-        "category": "Design",
-        "description": "Clean and intuitive mobile app interface design for a fitness tracking application. Includes wireframes, prototypes, and user flow diagrams."
-    },
-    {
-        "title": "Data Analytics Dashboard",
-        "image": "https://via.placeholder.com/300x320/34495e/ffffff?text=Analytics+Dashboard",
-        "category": "AI",
-        "description": "Python-based data visualization and analysis tool with interactive charts, real-time data processing, and machine learning insights for business intelligence."
-    },
-    {
-        "title": "Social Media Platform",
-        "image": "https://via.placeholder.com/300x240/1abc9c/ffffff?text=Social+Platform",
+        "title": "Spaza Easy Pay",
+        "image": "https://via.placeholder.com/300x280/2ecc71/ffffff?text=Spaza+Easy+Pay",
         "category": "Web Development",
-        "description": "Full-featured social media platform with real-time messaging, photo sharing, user profiles, and news feed. Built with React, Express.js, and Socket.io."
-    },
-    {
-        "title": "Logo Collection",
-        "image": "https://via.placeholder.com/300x300/e67e22/ffffff?text=Logo+Collection",
-        "category": "Design",
-        "description": "Collection of creative logos designed for various clients across different industries. Showcasing versatility in design styles and brand representation."
-    },
-    {
-        "title": "Machine Learning Model",
-        "image": "https://via.placeholder.com/300x260/8e44ad/ffffff?text=ML+Model",
-        "category": "AI",
-        "description": "Predictive machine learning model for stock market analysis using Python, scikit-learn, and TensorFlow. Includes data preprocessing and model evaluation."
-    },
-    {
-        "title": "Task Management App",
-        "image": "https://via.placeholder.com/300x290/27ae60/ffffff?text=Task+Manager",
-        "category": "Web Development",
-        "description": "Collaborative task management application with drag-and-drop functionality, team collaboration features, and progress tracking. Built with Vue.js and Firebase."
-    },
-    {
-        "title": "Website Redesign",
-        "image": "https://via.placeholder.com/300x310/c0392b/ffffff?text=Website+Redesign",
-        "category": "Design",
-        "description": "Complete website redesign project focusing on improved user experience, modern aesthetics, and mobile responsiveness. Includes user research and A/B testing."
-    },
-    {
-        "title": "Computer Vision App",
-        "image": "https://via.placeholder.com/300x270/7f8c8d/ffffff?text=Computer+Vision",
-        "category": "AI",
-        "description": "Computer vision application for object detection and recognition using OpenCV and deep learning. Real-time processing with high accuracy rates."
+        "description": "A digital payment solution designed for South African spaza shops, enabling seamless transactions, inventory management, and customer loyalty programs for small local businesses.",
+        "github": "https://github.com/jabelopitso/spaza-easy-pay",
+        "technologies": ["JavaScript", "Payment Integration", "Mobile-First", "PWA"]
     }
 ]

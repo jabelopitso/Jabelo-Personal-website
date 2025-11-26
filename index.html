@@ -3,150 +3,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jabelo Pitso - Personal Profile</title>
+    <title>Jabelo Pitso - Software Developer</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <!-- Pinterest-style Header -->
+    <!-- Professional Header -->
     <header class="pinterest-header">
         <div class="header-content">
-            <div class="logo">
-                <i class="fas fa-user-circle"></i>
-                <span>Jabelo</span>
-            </div>
+            <a href="#" class="logo">&lt;/JP&gt;</a>
             <nav class="main-nav">
                 <a href="#home" class="nav-link active">Home</a>
-                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
                 <a href="#projects" class="nav-link">Projects</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </nav>
             <div class="header-actions">
-                <button class="search-btn">
-                    <i class="fas fa-search"></i>
-                </button>
-                <button class="menu-btn">
-                    <i class="fas fa-bars"></i>
-                </button>
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
             </div>
         </div>
     </header>
 
-    <!-- Profile Hero Section -->
-    <section class="profile-hero">
+    <!-- Hero Section -->
+    <section class="profile-hero" id="home">
         <div class="profile-container">
             <div class="profile-avatar">
                 <img src="images/AAD763D8-3714-40DD-864E-568F8AF47FB1_1_105_c.jpeg" alt="Jabelo Pitso" class="avatar-img">
             </div>
-            <h1 class="profile-name">Jabelo Pitso</h1>
-            <p class="profile-title"> Aspiring Software Developer</p>
-            <p class="profile-bio">I’m Jabelo Pitso — a passionate Software Development graduate who loves building interactive, visually appealing, and user-friendly web apps. I enjoy solving real problems through clean code and creative thinking, with experience in Java, Python, HTML, CSS, JavaScript, SQL, PHP, and cloud tools like Azure.</p>
-            <div class="profile-stats">
-                <div class="stat">
-                    <span class="stat-number">410</span>
-                    <span class="stat-label">connections</span>
-                </div>
-                
-            <div class="profile-actions">
-                <button class="btn-primary">Follow</button>
-                <button class="btn-secondary">Message</button>
-                <button class="btn-icon">
-                    <i class="fas fa-share"></i>
-                </button>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- Filter Tabs -->
-    <section class="filter-tabs">
-        <div class="tabs-container">
-            <button class="tab-btn active" data-category="all">
-                <i class="fas fa-th"></i>
-                All Projects
-            </button>
-            <button class="tab-btn" data-category="Web Development">
-                <i class="fas fa-code"></i>
-                Web Development
-            </button>
-            <button class="tab-btn" data-category="Design">
-                <i class="fas fa-palette"></i>
-                Design
-            </button>
-            <button class="tab-btn" data-category="AI">
-                <i class="fas fa-robot"></i>
-                AI Projects
-            </button>
-        </div>
-    </section>
-
-    <!-- Pinterest-style Masonry Grid -->
-    <section class="masonry-container">
-        <div id="masonry-grid" class="masonry-grid">
-            <!-- Cards will be loaded dynamically -->
-        </div>
-    </section>
-
-    <!-- About Modal -->
-    <div id="about-modal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h2>About Jabelo Pitso</h2>
-            <div class="about-content">
-                <img src="https://via.placeholder.com/200/e74c3c/ffffff?text=JP" alt="Jabelo Pitso" class="about-img">
-                <div class="about-text">
-                    <p>Hello! I'm Jabelo Pitso, a passionate software developer with a keen eye for design and user experience. I specialize in creating interactive and visually appealing web applications that solve real-world problems.</p>
-                    <p>My journey in technology started with curiosity and has evolved into a deep passion for crafting digital experiences that make a difference. I love exploring new technologies, contributing to open-source projects, and sharing knowledge with the developer community.</p>
-                    <div class="skills">
-                        <h3>Skills & Technologies</h3>
-                        <div class="skill-tags">
-                            <span class="skill-tag">JavaScript</span>
-                            <span class="skill-tag">React</span>
-                            <span class="skill-tag">Node.js</span>
-                            <span class="skill-tag">Python</span>
-                            <span class="skill-tag">UI/UX Design</span>
-                            <span class="skill-tag">Machine Learning</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Contact Modal -->
-    <div id="contact-modal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h2>Get In Touch</h2>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
+            <div class="profile-info">
+                <h1>Hi, I'm Jabelo Pitso</h1>
+                <p class="profile-title">Software Developer & Problem Solver</p>
+                <p class="profile-bio">
+                    I'm a passionate Software Development graduate who loves building interactive, 
+                    user-friendly web applications. I enjoy solving real problems through clean code 
+                    and creative thinking, with expertise in modern web technologies and cloud platforms.
+                </p>
+                <div class="profile-actions">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i>
+                        View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
                         <i class="fas fa-envelope"></i>
-                        <span>jabelo.pitso@example.com</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-linkedin"></i>
-                        <span>linkedin.com/in/jabelopitso</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-github"></i>
-                        <span>github.com/jabelopitso</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-twitter"></i>
-                        <span>@jabelopitso</span>
-                    </div>
+                        Get In Touch
+                    </a>
                 </div>
-                <form class="contact-form">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <textarea placeholder="Your Message" rows="5" required></textarea>
-                    <button type="submit" class="btn-primary">Send Message</button>
-                </form>
             </div>
         </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <div class="skills-container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>
+                        <i class="fas fa-code"></i>
+                        Frontend Development
+                    </h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Vue.js</span>
+                        <span class="skill-tag">TypeScript</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>
+                        <i class="fas fa-server"></i>
+                        Backend Development
+                    </h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">Express.js</span>
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">GraphQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>
+                        <i class="fas fa-database"></i>
+                        Database & Cloud
+                    </h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Azure</span>
+                        <span class="skill-tag">AWS</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>
+                        <i class="fas fa-tools"></i>
+                        Tools & Frameworks
+                    </h3>
+                    <div class="skill-list">
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Figma</span>
+                        <span class="skill-tag">Webpack</span>
+                        <span class="skill-tag">Jest</span>
+                        <span class="skill-tag">Cypress</span>
+                        <span class="skill-tag">Agile</span>
+                        <span class="skill-tag">CI/CD</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <div class="projects-wrapper" id="projects">
+        <section class="filter-tabs">
+            <div class="tabs-container">
+                <h2>Featured Projects</h2>
+                <div class="tab-buttons">
+                    <button class="tab-btn active" data-category="all">
+                        <i class="fas fa-th"></i>
+                        All Projects
+                    </button>
+                    <button class="tab-btn" data-category="Web Development">
+                        <i class="fas fa-globe"></i>
+                        Web Apps
+                    </button>
+                    <button class="tab-btn" data-category="Design">
+                        <i class="fas fa-palette"></i>
+                        UI/UX
+                    </button>
+                    <button class="tab-btn" data-category="AI">
+                        <i class="fas fa-robot"></i>
+                        AI/ML
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Grid -->
+        <section class="masonry-container">
+            <div id="masonry-grid" class="masonry-grid">
+                <!-- Projects will be loaded dynamically -->
+            </div>
+        </section>
     </div>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <h2>Let's Work Together</h2>
+            <p>
+                I'm always interested in new opportunities and exciting projects. 
+                Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            </p>
+            <div class="contact-links">
+                <a href="mailto:jabelopitso630@gmail.com" class="contact-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>jabelopitso630@gmail.com</span>
+                </a>
+                <a href="https://linkedin.com/in/jabelopitso" class="contact-link" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/jabelopitso" class="contact-link" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="tel:0677708683" class="contact-link">
+                    <i class="fas fa-phone"></i>
+                    <span>Call Me</span>
+                </a>
+            </div>
+        </div>
+    </section>
 
     <script src="script.js"></script>
 </body>
